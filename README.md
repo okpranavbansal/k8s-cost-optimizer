@@ -1,4 +1,9 @@
 # k8s-cost-optimizer
+> Scripts and automation that achieved 50–60% AWS infrastructure cost reduction for a production ECS Fargate platform.
+
+![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat&logo=terraform&logoColor=white) ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazonaws&logoColor=white) ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat&logo=gnubash&logoColor=white)
+
+![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat&logo=terraform&logoColor=white) ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazonaws&logoColor=white) ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat&logo=gnubash&logoColor=white)
 
 Terraform modules and shell scripts that achieved **50–60% AWS infrastructure cost reduction** for a production ECS Fargate platform running 37 microservices.
 
@@ -72,3 +77,10 @@ terraform apply -var="repository_name=my-service" -var="environment=prd"
 - AWS CLI configured with Cost Explorer access (`ce:*`)
 - Terraform >= 1.5
 - `jq`, `bc` for shell scripts
+
+## Author
+
+**Pranav Bansal** — AI Infrastructure & SRE Engineer
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/okpranavbansal)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/okpranavbansal)
